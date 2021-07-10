@@ -29,6 +29,6 @@ On line 51 you'll define the path which is referenced on line 564 to your workin
 
 On lines 48 and 49 these act as your API keys for Twilio services which will send you text messages throughout the trading process. You will have to set this up on your own but Twilio does a great job showing you how to do so! It does cost money but it's less than a penny per SMS (USD). Once you have these keys enter them as environmental variables for added security.
 
-Lastly, on line 54 you can change 'overall_percent' to your liking. It controls how much of your available account cash you want to use for a given trade. For Trader5 I left in the 'profitSell' item on line 55 (something I took off on Trader3) just in case somebody wants to lower the dollar amount after a winning trade.
+Lastly, on line 54 you can change 'overall_percent' to your liking. It controls how much of your available account cash you want to use for a given trade. For Trader5 I left in the 'profitSell' item on line 55 (something I took off on Trader3) just in case somebody wants to lower the dollar amount after a winning trade. It takes effect on lines 445-448 and 493-495.
 
 Once, you have all of this set, you should be good to go for this methodology!
